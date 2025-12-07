@@ -1,65 +1,116 @@
-# Natural-Language-Processing
+📘 NLP Notebook Collection
+
+This repository contains a structured collection of Jupyter notebooks covering essential Natural Language Processing (NLP) techniques. Each notebook focuses on a specific concept, moving from basic preprocessing to modern word embedding techniques and neural embedding models.
+
 📂 Contents
+1️⃣ NLTK Preprocessing
 
-1️⃣ NLTK Preprocessing.ipynb
+File: NLTK Preprocessing.ipynb
+A foundational notebook demonstrating classical NLP preprocessing with the NLTK library.
 
-Covers fundamental NLP preprocessing techniques using NLTK.
+Topics Covered
 
-Topics Included
+Text cleaning
 
-Loading and cleaning raw text
-
-Tokenization (word, sentence)
+Tokenization (word/sentence)
 
 Stopword removal
 
-Stemming (Porter, Snowball, Lancaster)
+Stemming (Porter, Lancaster, Snowball)
 
 Lemmatization
 
-Part-of-Speech (POS) tagging
+POS tagging
 
-Basic text normalization steps
+N-grams and frequency distribution
 
-N-grams
+2️⃣ spaCy NLP Pipeline
 
-Frequency distribution
+File: Spacy.ipynb
+A modern approach to NLP using spaCy’s industrial-strength pipeline.
 
-Key Skills Learned
+Topics Covered
 
-✔ How to clean and prepare text for NLP
-✔ Understanding stemming vs. lemmatization
-✔ Working with POS tagging
-✔ Using NLTK corpora and utilities
-
-2️⃣ Spacy.ipynb
-
-Focuses on modern NLP workflows using spaCy, an industrial-strength NLP library.
-
-Topics Included
-
-Loading spaCy models (en_core_web_sm)
-
-Tokenization
-
-Lemmatization
-
-Stopword handling
+Tokenization and linguistic features
 
 POS tagging
 
 Named Entity Recognition (NER)
 
+Lemmatization
+
 Dependency parsing
 
 Text similarity
 
-Custom pipeline usage
+Working with spaCy models (en_core_web_sm)
 
-Key Skills Learned
+3️⃣ Word Embedding Techniques
 
-✔ How spaCy tokenizes and processes text
-✔ Extracting linguistic features
-✔ Understanding dependency parsing
-✔ Performing Named Entity Recognition
-✔ Comparing texts using vector similarity
+File: Word_Embedding.ipynb
+
+This notebook introduces the theory and application of distributed word representations.
+
+Topics Covered
+
+Bag-of-Words (BoW) representation
+
+One-hot encoding
+
+TF-IDF explanation
+
+Introduction to word embeddings
+
+Limitations of traditional methods
+
+Importance of dense vector representations
+
+4️⃣ CBOW & Skip-Gram (Word2Vec Architecture)
+
+File: cbow_Skipgram.ipynb
+
+A practical exploration of neural embedding models using the Word2Vec framework.
+
+Topics Covered
+
+Understanding CBOW (predict target from context)
+
+Understanding Skip-Gram (predict context from target)
+
+Comparison of both architectures
+
+Training shallow neural networks for embeddings
+
+Hyperparameters (window size, negative sampling, vector dims)
+
+5️⃣ Word2Vec Case Study
+
+File: Word2vec_casestudy.ipynb
+
+A detailed case study applying word embeddings to real-world text.
+
+Topics Covered
+
+Why TF-IDF fails to capture context
+
+Training Word2Vec on custom data
+
+Visualizing embeddings
+
+Semantic similarity & nearest neighbors
+
+Practical examples of analogy reasoning
+
+Interpretation of embedding space
+
+🧰 Technologies Used
+
+Python 3.x
+
+Jupyter Notebook
+
+NLTK, spaCy
+
+Gensim / Word2Vec
+
+NumPy, Pandas, Matplotlib
