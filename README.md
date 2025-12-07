@@ -3,6 +3,7 @@
 This repository contains a structured collection of Jupyter notebooks covering essential Natural Language Processing (NLP) techniques. Each notebook focuses on a specific concept, moving from basic preprocessing to modern word embedding techniques and neural embedding models.
 
 📂 Contents
+
 1️⃣ NLTK Preprocessing
 
 File: NLTK Preprocessing.ipynb
