@@ -1,4 +1,21 @@
-# NLP Labs Repository
+<div align="center">
+  
+  # 🧠 Natural Language Processing (NLP) Collection
+  
+  <p align="center">
+    A comprehensive, hands-on repository covering foundational to advanced NLP techniques, from text preprocessing to neural word embeddings.
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Version">
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter Notebook">
+    <img src="https://img.shields.io/badge/Framework-spaCy%20%7C%20NLTK-green" alt="NLP Frameworks">
+    <img src="https://img.shields.io/badge/Library-Gensim-yellow" alt="Gensim">
+    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
+  </p>
+</div>
+
+---
 
 > A modern NLP learning workspace with notebooks, demos, and an end-to-end RAG QA app.
 
