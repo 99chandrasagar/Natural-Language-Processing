@@ -1,117 +1,74 @@
-📘 NLP Notebook Collection
+# NLP Labs Repository
 
-This repository contains a structured collection of Jupyter notebooks covering essential Natural Language Processing (NLP) techniques. Each notebook focuses on a specific concept, moving from basic preprocessing to modern word embedding techniques and neural embedding models.
+> A modern NLP learning workspace with notebooks, demos, and an end-to-end RAG QA app.
 
-📂 Contents
+---
 
-1️⃣ NLTK Preprocessing
+## 🚀 What’s inside
 
-File: NLTK Preprocessing.ipynb
-A foundational notebook demonstrating classical NLP preprocessing with the NLTK library.
+This repository collects practical Natural Language Processing experiments, datasets, and projects built with Python, Jupyter, and modern NLP pipelines.
 
-Topics Covered
+### Key highlights
 
-Text cleaning
+- **NLP fundamentals**: preprocessing, tokenization, POS tagging, lemmatization, NER, dependency parsing.
+- **Embedding and representation**: TF-IDF, Bag-of-Words, Word2Vec, CBOW, Skip-Gram, semantic similarity.
+- **Project work**: RAG question-answering app, NLP applications, and a Group 9 IT Helpdesk project.
 
-Tokenization (word/sentence)
+---
 
-Stopword removal
+## 📁 Repository structure
 
-Stemming (Porter, Lancaster, Snowball)
+- `NLTK Preprocessing.ipynb` — classical NLP preprocessing using NLTK.
+- `Spacy.ipynb` — spaCy pipeline, entity recognition, parsing, and similarity.
+- `Word_Embedding.ipynb` — vector representations, TF-IDF, and embedding basics.
+- `cbow_Skipgram.ipynb` — Word2Vec architecture with CBOW and Skip-Gram training.
+- `Word2vec_casestudy.ipynb` — a case study on training embeddings and inspecting results.
+- `rag-qa-app/` — Retrieval-Augmented Generation app with source ingestion and retrieval logic.
+- `nlp applications/` — additional demo notebooks such as grammar correction and spell checking.
+- `Group9_NLP_PS1_IT Helpdesk/` — a team project folder with the IT Helpdesk assignment and knowledge base.
 
-Lemmatization
+---
 
-POS tagging
+## 🔥 Trending features
 
-N-grams and frequency distribution
+- Notebook-based learning flow for interactive experimentation
+- RAG QA system with document ingestion and retrieval pipeline
+- Practical policy documentation included in the IT Helpdesk project
+- Multiple NLP libraries integrated: `NLTK`, `spaCy`, `Gensim`, and `scikit-learn` friendly workflows
 
-2️⃣ spaCy NLP Pipeline
+---
 
-File: Spacy.ipynb
-A modern approach to NLP using spaCy’s industrial-strength pipeline.
+## 📌 Recommended start
 
-Topics Covered
+1. Open `NLTK Preprocessing.ipynb` to learn preprocessing essentials.
+2. Continue with `Spacy.ipynb` to see a production-grade NLP pipeline.
+3. Explore `Word_Embedding.ipynb` and `cbow_Skipgram.ipynb` for embedding theory and practice.
+4. Run `Word2vec_casestudy.ipynb` for application-level insights and results.
+5. Check `rag-qa-app/README.md` for the RAG app setup and usage.
 
-Tokenization and linguistic features
+---
 
-POS tagging
+## 🛠️ Technologies used
 
-Named Entity Recognition (NER)
+- Python 3.x
+- Jupyter Notebook
+- NLTK
+- spaCy
+- Gensim
+- NumPy, Pandas, Matplotlib
+- Flask or FastAPI for the RAG demo app (if included)
 
-Lemmatization
+---
 
-Dependency parsing
+## 💡 Notes
 
-Text similarity
+- The `rag-qa-app` folder contains a standalone app demo for document retrieval and answer generation.
+- The `Group9_NLP_PS1_IT Helpdesk` folder contains team assignment files and supporting policies.
+- Use `pip install -r rag-qa-app/requirements.txt` to install dependencies for the RAG app.
 
-Working with spaCy models (en_core_web_sm)
+---
 
-3️⃣ Word Embedding Techniques
+## 📬 Contributions
 
-File: Word_Embedding.ipynb
+Feel free to add notebooks, improve documentation, or extend the RAG app with new data sources.
 
-This notebook introduces the theory and application of distributed word representations.
-
-Topics Covered
-
-Bag-of-Words (BoW) representation
-
-One-hot encoding
-
-TF-IDF explanation
-
-Introduction to word embeddings
-
-Limitations of traditional methods
-
-Importance of dense vector representations
-
-4️⃣ CBOW & Skip-Gram (Word2Vec Architecture)
-
-File: cbow_Skipgram.ipynb
-
-A practical exploration of neural embedding models using the Word2Vec framework.
-
-Topics Covered
-
-Understanding CBOW (predict target from context)
-
-Understanding Skip-Gram (predict context from target)
-
-Comparison of both architectures
-
-Training shallow neural networks for embeddings
-
-Hyperparameters (window size, negative sampling, vector dims)
-
-5️⃣ Word2Vec Case Study
-
-File: Word2vec_casestudy.ipynb
-
-A detailed case study applying word embeddings to real-world text.
-
-Topics Covered
-
-Why TF-IDF fails to capture context
-
-Training Word2Vec on custom data
-
-Visualizing embeddings
-
-Semantic similarity & nearest neighbors
-
-Practical examples of analogy reasoning
-
-Interpretation of embedding space
-
-🧰 Technologies Used
-
-Python 3.x
-
-Jupyter Notebook
-
-NLTK, spaCy
-
-Gensim / Word2Vec
-
-NumPy, Pandas, Matplotlib
